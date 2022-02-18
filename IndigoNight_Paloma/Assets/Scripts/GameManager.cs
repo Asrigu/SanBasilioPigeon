@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -12,7 +11,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     // Variables
-    public TextMeshProUGUI seedsText;
+    public Text seedsText;
     [SerializeField] private GameObject[] arrayCollectibles;
     [SerializeField] private int collectiblesNum;
     [SerializeField] private int collectiblesMax;
@@ -53,7 +52,7 @@ public class GameManager : MonoBehaviour
     private void UpdatePickablesScore()
     {
         // Texto en la UI
-        seedsText.text = "Seeds: " + collectiblesNum + " / " + collectiblesMax;
+        seedsText.text = collectiblesNum + " / " + collectiblesMax;
     }
 
     public void IncreaseScore()
