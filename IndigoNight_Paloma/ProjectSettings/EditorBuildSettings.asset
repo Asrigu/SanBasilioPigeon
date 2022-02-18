@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Import/Scenes/TestArea.unity
+    path: Assets/Scenes/TestArea.unity
     guid: 8a2b420f4176f75448ea6ef5ed433db1
   - enabled: 1
-    path: Assets/Import/Scenes/Lose.unity
+    path: Assets/Scenes/Lose.unity
     guid: 9a9506733c756be459473a81a98a0826
   - enabled: 1
-    path: Assets/Import/Scenes/Win.unity
+    path: Assets/Scenes/Win.unity
     guid: 024b0ac1124be034b856dccbfef47e2d
   m_configObjects: {}

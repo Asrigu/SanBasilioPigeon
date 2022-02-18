@@ -1715,6 +1715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DOOR
       objectReference: {fileID: 0}
+    - target: {fileID: 8424073627695423409, guid: 42bd4d4a48df7374ea70b8415039d7ee, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 687d3ee22b4cfef459ccd4d2eb44a50c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42bd4d4a48df7374ea70b8415039d7ee, type: 3}
 --- !u!1001 &170804261
@@ -7715,7 +7719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2801071260552528457, guid: c9a54c061fb598c4f954b567bb10fc97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.9586844
+      value: -4.33
       objectReference: {fileID: 0}
     - target: {fileID: 2801071260552528457, guid: c9a54c061fb598c4f954b567bb10fc97, type: 3}
       propertyPath: m_LocalPosition.y
