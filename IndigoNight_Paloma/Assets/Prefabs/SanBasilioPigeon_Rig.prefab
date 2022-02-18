@@ -1033,14 +1033,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2450070266078445090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36c73e37da0bac14cae4ae570181400f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  anim: {fileID: 0}
+  estoySeguro: 0
   rb: {fileID: 919132148668924517}
-  jumpForce: 120
+  jumpForce: 80
   puedoSaltar: 0
 --- !u!1 &2541519620182940648
 GameObject:

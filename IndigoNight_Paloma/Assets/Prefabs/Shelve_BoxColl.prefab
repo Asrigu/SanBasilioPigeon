@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 3172937212813857829}
   m_Layer: 0
   m_Name: Shelve_BoxColl
-  m_TagString: Untagged
+  m_TagString: ZonaSegura
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

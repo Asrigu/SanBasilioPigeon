@@ -35,7 +35,7 @@ public class Enemy_Controller : MonoBehaviour
 
     private void Enemy_Movement()
     {
-        if (Vector3.Distance(transform.position, target.transform.position) > 5)
+        if (Vector3.Distance(transform.position, target.transform.position) > 5 && _playerController.estoySeguro)
         {
             anim.SetBool("Run", false);
             chronometer += 1 * Time.deltaTime;
@@ -67,14 +67,18 @@ public class Enemy_Controller : MonoBehaviour
 
         else
         {
-            var lookPos = target.transform.position - transform.position;
-            lookPos.y = 0;
-            var rotation = Quaternion.LookRotation(lookPos);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 5);
-            anim.SetBool("Walk", false);
+            if (!_playerController.estoySeguro)
+            {
+                var lookPos = target.transform.position - transform.position;
+                lookPos.y = 0;
+                var rotation = Quaternion.LookRotation(lookPos);
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 5);
+                anim.SetBool("Walk", false);
             
-            anim.SetBool("Run", true);
-            transform.Translate(Vector3.forward * 5 * Time.deltaTime);
+                anim.SetBool("Run", true);
+                transform.Translate(Vector3.forward * 5 * Time.deltaTime);
+            }
+
         }
     }
 

@@ -10,10 +10,12 @@ using UnityEngine.SceneManagement;
 
 public class Player_Controller : MonoBehaviour
 {
+    
     // Variables
     [SerializeField] private float speed;
     private float rotationSpeed = 200.0f;
     public Animator anim;
+    public bool estoySeguro;
 
     private float x, y;
 
@@ -41,6 +43,23 @@ public class Player_Controller : MonoBehaviour
         Player_Run();
         Player_Jump();
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("ZonaSegura"))
+        {
+            estoySeguro = true;
+        }
+    }
+    
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("ZonaSegura"))
+        {
+            estoySeguro = false;
+        }
+    }
+
 
     #region WALK
     private void Player_Movement()
