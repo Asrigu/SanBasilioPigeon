@@ -1,0 +1,410 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2585637164064520581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261504952076043505}
+  m_Layer: 0
+  m_Name: DrinkCan_1_x6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261504952076043505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585637164064520581}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 930253779843183800}
+  - {fileID: 6263980179274680855}
+  - {fileID: 4640952416734580502}
+  - {fileID: 1106147674773015241}
+  - {fileID: 1931996886239973162}
+  - {fileID: 4332401741370202258}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &843374055457037248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261504952076043505}
+    m_Modifications:
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.650999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.72284055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386608286076230120, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_Name
+      value: DrinkCan_1 (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+--- !u!4 &4332401741370202258 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+  m_PrefabInstance: {fileID: 843374055457037248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3270836796565818488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261504952076043505}
+    m_Modifications:
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.72284055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386608286076230120, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_Name
+      value: DrinkCan_1 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+--- !u!4 &1931996886239973162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+  m_PrefabInstance: {fileID: 3270836796565818488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4103446806784100763
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261504952076043505}
+    m_Modifications:
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.650999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.72284055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.946
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386608286076230120, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_Name
+      value: DrinkCan_1 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+--- !u!4 &1106147674773015241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+  m_PrefabInstance: {fileID: 4103446806784100763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4270363182795585514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261504952076043505}
+    m_Modifications:
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.650999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.72284055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.524722
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386608286076230120, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_Name
+      value: DrinkCan_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+--- !u!4 &930253779843183800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+  m_PrefabInstance: {fileID: 4270363182795585514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7009198176106891589
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261504952076043505}
+    m_Modifications:
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.72284055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.524722
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386608286076230120, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_Name
+      value: DrinkCan_1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+--- !u!4 &6263980179274680855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+  m_PrefabInstance: {fileID: 7009198176106891589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8632404261363190852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261504952076043505}
+    m_Modifications:
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.72284055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.946
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386608286076230120, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+      propertyPath: m_Name
+      value: DrinkCan_1 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+--- !u!4 &4640952416734580502 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4011454177705952082, guid: 92d5e4b645752bd4f98be431d942dd71, type: 3}
+  m_PrefabInstance: {fileID: 8632404261363190852}
+  m_PrefabAsset: {fileID: 0}
