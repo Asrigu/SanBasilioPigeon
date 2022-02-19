@@ -17,7 +17,7 @@ public class Timer_Controller : MonoBehaviour
     
         private GameManager _gameManager;
 
-       [SerializeField] private AudioSource tiktak;
+       public AudioSource tiktak;
 
         // Start is called before the first frame update
         void Start()

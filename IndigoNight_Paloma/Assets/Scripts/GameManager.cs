@@ -164,6 +164,7 @@ public class GameManager : MonoBehaviour
         pausebtn.SetActive(false);
         pausePanel.SetActive(true);
         _playerController.grugru.Stop();
+        _timerController.tiktak.Stop();
         backBtn.SetActive(true);
     }
 
@@ -175,6 +176,7 @@ public class GameManager : MonoBehaviour
         pausebtn.SetActive(true);
         pausePanel.SetActive(false);
         _playerController.grugru.Play();
+        _timerController.tiktak.Play();
         backBtn.SetActive(false);
     }
 
@@ -185,6 +187,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         _playerController.grugru.Play();
+        _timerController.tiktak.Stop();
         backBtn.SetActive(false);
     }
 
