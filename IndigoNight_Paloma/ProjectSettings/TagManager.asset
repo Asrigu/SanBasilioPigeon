@@ -8,6 +8,8 @@ TagManager:
   - Collectable
   - Enemy
   - ZonaSegura
+  - MainMenu
+  - Game
   layers:
   - Default
   - TransparentFX

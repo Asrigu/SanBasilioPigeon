@@ -24,13 +24,17 @@ public class Player_Controller : MonoBehaviour
     public bool puedoSaltar;
 
     private Timer_Controller _timerController;
-    
+
+    [SerializeField] private AudioSource grugru;
+
     // Start is called before the first frame update
     void Start()
     {
         puedoSaltar = false;
         anim = GetComponent<Animator>();
         speed = 2.5f;
+        
+        grugru.Play();
     }
 
     void FixedUpdate()

@@ -22,6 +22,10 @@ public class GameManager : MonoBehaviour
     private Enemy_Controller _enemyController;
     private Player_Controller _playerController;
 
+    [SerializeField] private GameObject pausebtn;
+    [SerializeField] private GameObject pausePanel;
+    private bool pausedGame = false;
+    
     private void Awake()
     {
         Instance = this;
@@ -46,6 +50,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         WinLogic();
+        PauseEsc();
     }
 
     #region PickUps
@@ -129,6 +134,53 @@ public class GameManager : MonoBehaviour
         Application.Quit();
         Debug.Log("Quit game succesful");
     }
+    #endregion
+
+    #region Pause & Restart Game
+
+    // Método para pausar el juego con la tecla "Esc"
+    private void PauseEsc()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (pausedGame)
+            {
+                Resume();
+            }
+
+            else
+            {
+                Pause();
+            }
+        }
+    }
+    
+    // Método para pausar el juego con un botón
+    public void Pause()
+    {
+        pausedGame = true;
+        Time.timeScale = 0f;
+        pausebtn.SetActive(false);
+        pausePanel.SetActive(true);
+    }
+
+    // Método para despausar el juego
+    public void Resume()
+    {
+        pausedGame = false;
+        Time.timeScale = 1f;
+        pausebtn.SetActive(true);
+        pausePanel.SetActive(false);
+    }
+
+    // Método para reiniciar el juego
+    public void Restart()
+    {
+        pausedGame = false;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     #endregion
 
 }
