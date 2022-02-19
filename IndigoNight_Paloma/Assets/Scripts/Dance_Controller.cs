@@ -16,32 +16,56 @@ public class Dance_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Dance();
     }
 
     #region Dance
 
     private void Dance()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad1))
-        {
-            anim.SetBool("HipHop1", true);
-            anim.SetBool("HipHop2", false);
-            anim.SetBool("Maraschino", false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Keypad2))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             anim.SetBool("HipHop1", false);
             anim.SetBool("HipHop2", true);
+            anim.SetBool("HipHop3", false);
             anim.SetBool("Maraschino", false);
+            anim.SetBool("Shopping", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.U))
+        { 
+            anim.SetBool("HipHop1", false);
+            anim.SetBool("HipHop2", true);
+            anim.SetBool("HipHop3", false);
+            anim.SetBool("Maraschino", false);
+            anim.SetBool("Shopping", false);
         }
         
-        if (Input.GetKeyDown(KeyCode.Keypad3))
+        if (Input.GetKeyDown(KeyCode.B))
         {
             anim.SetBool("HipHop1", false);
             anim.SetBool("HipHop2", false);
+            anim.SetBool("HipHop3", true);
+            anim.SetBool("Maraschino", false);
+            anim.SetBool("Shopping", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            anim.SetBool("HipHop1", false);
+            anim.SetBool("HipHop2", false);
+            anim.SetBool("HipHop3", false);
             anim.SetBool("Maraschino", true);
+            anim.SetBool("Shopping", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            anim.SetBool("HipHop1", false);
+            anim.SetBool("HipHop2", false);
+            anim.SetBool("HipHop3", false);
+            anim.SetBool("Maraschino", false);
+            anim.SetBool("Shopping", true);
         }
     }
 
