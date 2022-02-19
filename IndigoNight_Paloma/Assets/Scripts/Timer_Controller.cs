@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,11 +16,15 @@ public class Timer_Controller : MonoBehaviour
         [SerializeField] private Text timer_Text;
     
         private GameManager _gameManager;
-    
+
+       [SerializeField] private AudioSource tiktak;
+
         // Start is called before the first frame update
         void Start()
         {
             _gameManager = Object.FindObjectOfType<GameManager>();
+            
+            tiktak.Stop();
         }
     
         // Lógica para comenzar la cuenta atrás
@@ -28,6 +33,7 @@ public class Timer_Controller : MonoBehaviour
         {
             m = minutes;
             s = seconds;
+            tiktak.Play();
             writeTimer(m, s);
             Invoke("updateTimer", 1f);
         }
@@ -37,6 +43,7 @@ public class Timer_Controller : MonoBehaviour
         #region Stop Timer Method
         public void stopTimer()
         {
+            tiktak.Stop();
             CancelInvoke();
         }
         #endregion

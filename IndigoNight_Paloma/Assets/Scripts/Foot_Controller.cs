@@ -10,14 +10,11 @@ public class Foot_Controller : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("ENTER");
         _PlayerController.puedoSaltar = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("EXIT");
-
         _PlayerController.puedoSaltar = false;
     }
 }

@@ -91,7 +91,6 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Lose");
     }
     
-
     #endregion
     
     #region WIN LOGIC
