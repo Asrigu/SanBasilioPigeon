@@ -115,6 +115,17 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Win");
     }
 
+    public void FromWinToMainMenu()
+    {
+        StartCoroutine(FromWin());
+    }
+
+    IEnumerator FromWin()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("TestArea");
+    }
+
     #endregion
 
     #region Try Again
@@ -185,10 +196,16 @@ public class GameManager : MonoBehaviour
     {
         pausedGame = false;
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         _playerController.grugru.Play();
         _timerController.tiktak.Stop();
         backBtn.SetActive(false);
+        StartCoroutine(ToMainMenu());
+    }
+
+    IEnumerator ToMainMenu()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     #endregion
