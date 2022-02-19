@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject pausebtn;
     [SerializeField] private GameObject pausePanel;
     private bool pausedGame = false;
+    [SerializeField] private GameObject backBtn;
     
     private void Awake()
     {
@@ -162,6 +163,8 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         pausebtn.SetActive(false);
         pausePanel.SetActive(true);
+        _playerController.grugru.Stop();
+        backBtn.SetActive(true);
     }
 
     // Método para despausar el juego
@@ -171,6 +174,8 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         pausebtn.SetActive(true);
         pausePanel.SetActive(false);
+        _playerController.grugru.Play();
+        backBtn.SetActive(false);
     }
 
     // Método para reiniciar el juego
@@ -179,6 +184,8 @@ public class GameManager : MonoBehaviour
         pausedGame = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        _playerController.grugru.Play();
+        backBtn.SetActive(false);
     }
 
     #endregion

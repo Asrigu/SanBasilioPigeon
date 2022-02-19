@@ -25,7 +25,7 @@ public class Player_Controller : MonoBehaviour
 
     private Timer_Controller _timerController;
 
-    [SerializeField] private AudioSource grugru;
+    public AudioSource grugru;
 
     // Start is called before the first frame update
     void Start()

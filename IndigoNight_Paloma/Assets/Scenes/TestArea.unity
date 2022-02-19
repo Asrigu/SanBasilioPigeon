@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 88663424}
   m_Layer: 5
   m_Name: Game_Panel
-  m_TagString: Game
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -769,7 +769,7 @@ GameObject:
   - component: {fileID: 373461174}
   m_Layer: 5
   m_Name: MainMenu_Panel
-  m_TagString: MainMenu
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2319,6 +2319,7 @@ MonoBehaviour:
   timer_txt: {fileID: 0}
   pausebtn: {fileID: 571098597}
   pausePanel: {fileID: 556835804}
+  backBtn: {fileID: 1158376339}
 --- !u!4 &1053285218
 Transform:
   m_ObjectHideFlags: 0
@@ -2469,7 +2470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1158376340
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2892,7 +2893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1d025fa08bf8aa43ae22c185b7a4f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minutes: 0
+  minutes: 2
   seconds: 30
   timer_Text: {fileID: 1404281226}
   tiktak: {fileID: 1773647507}
