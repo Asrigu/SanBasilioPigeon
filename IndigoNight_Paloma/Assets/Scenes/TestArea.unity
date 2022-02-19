@@ -4023,8 +4023,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 919132148668924515, guid: 0d22c6d312d0e8b488956239b262a9e2, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 2103912452, guid: 0d22c6d312d0e8b488956239b262a9e2, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103912452, guid: 0d22c6d312d0e8b488956239b262a9e2, type: 3}
+      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2450070266078445090, guid: 0d22c6d312d0e8b488956239b262a9e2, type: 3}
@@ -4075,7 +4079,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2103912452, guid: 0d22c6d312d0e8b488956239b262a9e2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0d22c6d312d0e8b488956239b262a9e2, type: 3}
 --- !u!1001 &4235961562423712343
 PrefabInstance:
