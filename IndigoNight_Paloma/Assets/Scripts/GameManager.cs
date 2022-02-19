@@ -123,7 +123,7 @@ public class GameManager : MonoBehaviour
     IEnumerator FromWin()
     {
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene("TestArea");
+        SceneManager.LoadScene("Game");
     }
 
     #endregion
@@ -136,7 +136,7 @@ public class GameManager : MonoBehaviour
     IEnumerator ChangeSceneToPlayMenu()
     {
         yield return new WaitForSeconds(0.3f);
-        SceneManager.LoadScene("TestArea");
+        SceneManager.LoadScene("Game");
     }
     #endregion
 

@@ -5086,10 +5086,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 140366505996246680, guid: fa101623dea3dcc46b385f2f4f49771a, type: 3}
-      propertyPath: anim
-      value: 
-      objectReference: {fileID: 5866666020566064792}
     - target: {fileID: 466148857621363057, guid: fa101623dea3dcc46b385f2f4f49771a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5138,10 +5134,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dance_FBX
       objectReference: {fileID: 0}
-    - target: {fileID: 5807456857161491211, guid: fa101623dea3dcc46b385f2f4f49771a, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b898556da82363a45a4e667bd7d5ef5b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa101623dea3dcc46b385f2f4f49771a, type: 3}
 --- !u!1001 &3121089462030519917
@@ -5380,8 +5372,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 090c7c93a51f2964d8f7bd3554c4082f, type: 3}
---- !u!95 &5866666020566064792 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5807456857161491211, guid: fa101623dea3dcc46b385f2f4f49771a, type: 3}
-  m_PrefabInstance: {fileID: 140366504653077907}
-  m_PrefabAsset: {fileID: 0}
