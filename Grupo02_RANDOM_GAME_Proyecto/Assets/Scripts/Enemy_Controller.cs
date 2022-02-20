@@ -29,6 +29,7 @@ public class Enemy_Controller : MonoBehaviour
     void FixedUpdate()
     {
         Enemy_Movement();
+        LimitsEnemy();
     }
 
     #region MOVEMENT
@@ -79,6 +80,34 @@ public class Enemy_Controller : MonoBehaviour
                 transform.Translate(Vector3.forward * 5 * Time.deltaTime);
             }
 
+        }
+    }
+
+    #endregion
+
+    #region ENEMY LIMITS
+
+    private void LimitsEnemy()
+    {
+        
+        if (transform.position.x > 27.898f)
+        {
+            transform.position = new Vector3(27.898f, transform.position.y, transform.position.z);
+        }
+        
+        if (transform.position.x < -13.549f)
+        {
+            transform.position = new Vector3(-13.549f, transform.position.y, transform.position.z);
+        }
+        
+        if (transform.position.z > 10.31f)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, 10.31f);
+        }
+        
+        if (transform.position.z < -10.945f)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, -10.945f);
         }
     }
 
